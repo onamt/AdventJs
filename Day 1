@@ -23,21 +23,7 @@ As you can see, the wrapping paper wraps the string. On top and bottom, so as no
 
 Good luck!
 
-### Solution
 
-```js
-/* [
-  "******\n*book*\n******",
-  "******\n*game*\n******",
-  "*******\n*socks*\n*******"
-] */
-
-wrapping = (gifts) => {
-  return gifts.map(gift => {
-    const wrap = "*".repeat(gift.length + 2)
-    return `${wrap}\n*${gift}*\n${wrap}`
-  })}
-```
 
 
 
