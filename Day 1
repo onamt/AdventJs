@@ -25,7 +25,12 @@ Good luck!
 
 Solution
 
-![Image text] (https://github.com/onamt/AdventJs/blob/main/Day%201.png)
+wrapping = (gifts) => {
+  return gifts.map(gift => {
+    const wrap = "*".repeat(gift.length + 2)
+    return `${wrap}\n*${gift}*\n${wrap}`
+  })}
+
 
 
 
